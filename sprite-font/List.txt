@@ -1,0 +1,27 @@
+Тэги|Tags
+{br} - Переход на новую строку | Insert new line
+{speed=value} - Скорость набора текста после тэга, задаётся в буквах в секунду | Speed of text typing, set in letter per second
+{pause=value} - Пауза в текущей позиции в секундах| Pause in current position in seconds
+{color=value}
+		white
+		gray
+		black
+		pink
+		green
+		yellow
+		orange
+		red
+		purple
+		darkblue
+		blue - Перекрашивает спрайты после тэга | Colorizing sprites after tag
+{symbol=value}
+		sword - Отображает символ меча | Show sword symbol
+		shield - Отображает символ щита | Show shield symbol
+		armor - Отображает символ брони | Show armor symbol
+		shield - Отображает символ магии (посох) | Show magic symbol (wizard's stuff)
+		skill - Отображает символ навыка (сабелька... у меня туго с фантазией) | Show skill symbol (curved sword... whatever >___>)
+		item - Отображает символ предмета | Show item symbol
+		key - Отображает символ ключа | Show key symbol
+		sigil - Отображает знак "$" | Show "$" symbol
+{next=value} - Ссылка на следующий параграф | Link to the next paragraph
+{next} - Конец диалога | End of the dialogue

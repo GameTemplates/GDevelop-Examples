@@ -1,0 +1,22 @@
+<rus>
+<test1 texte="{speed=50}Обновлённый механизм спрайтового шрифта.{next=test2}"/>
+<test2 texte="1. Скорость печатания текста.{pause=1}{br}Теперь скорость набора текста не ограничена десятью скоростями.{br}Задаётся в буквах в секунду.{next=test3}"/>
+<test3 texte="2. Пауза.{pause=1}{br}Теперь также без ограничений, можно сделать паузу хоть на час.{br}Задаётся в секундах.{next=test4}"/>
+<test4 texte="3. Подкрашивание текста.{pause=1}{br}Здесь {color=gray}всё {color=yellow}то {color=black}же {color=orange}самое,{color=purple} что в {color=green}преды{color=blue}дущей {color=darkblue}вер{color=red}сии.{color=white}{next=test5}"/>
+<test5 texte="4. Специальные символы.{pause=1}{br}Без особых изменений. Теперь знак ''{symbol=sigil}'' отведён в категорию специальных символов, {br}поскольку он отвечает за обозначение переменной в тексте.{next=test6}"/>
+<test6 texte="5. Внутренние ссылки.{pause=1}{br}Теперь в конце параграфов можно оставлять ссылки на элементы,{br}содержащие следующий параграф.{br}Оставьте тэг пустым, чтобы прервать диалог.{next=test7}"/>
+<test7 texte="6. Переменные.{pause=1}{br}Теперь можно вставлять в текст переменные.{br}Например, загадаю число от 1 до 1000000000.{br}И пусть это будет{speed=3}...{speed=50}{pause=1} $random$!{next=test8}"/>
+<test8 texte="Какого-то иного способа вставить переменные в текст я вообще пока не вижу,{br}подскажите, если он есть.{next=end}"/>
+<end texte="На этом всё.{next}"/>
+</rus>
+<eng>
+<test1 texte="{speed=50}Updated mechanism of sprite font.{next=test2}"/>
+<test2 texte="1. Typing speed.{pause=1}{br}Now the text typing speed is not limited by ten options.{br}Set it in letter per second.{next=test3}"/>
+<test3 texte="2. Pause.{pause=1}{br}Now unlimited, you can make pause hour long.{br}Set in seconds.{next=test4}"/>
+<test4 texte="3. Text colouring.{pause=1}{br}{color=gray}Noth{color=yellow}ing {color=black}chan{color=orange}ged {color=purple} here {color=green}at {color=blue}all.{color=white}{next=test5}"/>
+<test5 texte="4. Special symbols.{pause=1}{br}No changes. Now the ''{symbol=sigil}'' symbol is in the special symbol category,{br}because with it you marking variables in text.{next=test6}"/>
+<test6 texte="5. Inner links.{pause=1}{br}In the end of paragraph you can insert link{br}to the next paragraph.{br}Leave this tag empty to finish the dialogue.{next=test7}"/>
+<test7 texte="6. Variables.{pause=1}{br}Now you can insert variables in text.{br}For example I'll guess the number from 1 to 1000000000.{br}And let it be{speed=3}...{speed=50}{pause=1} $random$!{next=test8}"/>
+<test8 texte="I couldn't found any other way to insert variables in text,{br}tell me if it exists.{next=abyrvalg}"/>
+<abyrvalg texte="That's all, folks.{next}"/>
+</eng>
