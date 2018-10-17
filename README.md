@@ -1,4 +1,4 @@
-# GDevelop-Examples
+# GDevelop Examples
 Free examples made in GDevelop 5
 
 All the examples are completely free to use for any purposes.
