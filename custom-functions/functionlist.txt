@@ -1,0 +1,8 @@
+List of functions currently included:
+
+Move selected object back and forth in horizontal or vertical direction
+Drag selected camera on selected layer with pointer in horizontal, vertical or both direction
+Load image from selected URL and replace the current image of a selected object
+Text to speech, convert any text you enter to voice
+Snap selected object to virtual grid with selected cell width and height
+Set Virtual grid cell size, if you want to change it later or in case you want to snap to grid an object only in certain case you need to make sure you set the cell size first

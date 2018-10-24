@@ -1,0 +1,2031 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 97,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "folderProject": false,
+    "linuxExecutableFilename": "",
+    "macExecutableFilename": "",
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "projectFile": "C:\\Users\\szoszo\\Desktop\\Projects\\gametemplates\\gdevelop5\\custom-functions\\game.json",
+    "sizeOnStartupMode": "adaptWidth",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "winExecutableFilename": "",
+    "winExecutableIconFile": "",
+    "name": "Project",
+    "author": "",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 10,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": true
+    },
+    "extensions": [
+      {
+        "name": "BuiltinObject"
+      },
+      {
+        "name": "BuiltinAudio"
+      },
+      {
+        "name": "BuiltinVariables"
+      },
+      {
+        "name": "BuiltinTime"
+      },
+      {
+        "name": "BuiltinMouse"
+      },
+      {
+        "name": "BuiltinKeyboard"
+      },
+      {
+        "name": "BuiltinJoystick"
+      },
+      {
+        "name": "BuiltinCamera"
+      },
+      {
+        "name": "BuiltinWindow"
+      },
+      {
+        "name": "BuiltinFile"
+      },
+      {
+        "name": "BuiltinNetwork"
+      },
+      {
+        "name": "BuiltinScene"
+      },
+      {
+        "name": "BuiltinAdvanced"
+      },
+      {
+        "name": "Sprite"
+      },
+      {
+        "name": "BuiltinCommonInstructions"
+      },
+      {
+        "name": "BuiltinCommonConversions"
+      },
+      {
+        "name": "BuiltinStringInstructions"
+      },
+      {
+        "name": "BuiltinMathematicalTools"
+      },
+      {
+        "name": "BuiltinExternalLayouts"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "images/p1_jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\p1_jump.png",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Scene",
+      "name": "Scene",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 1
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "debug",
+          "width": 0,
+          "x": 154,
+          "y": 95,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Kenney",
+          "width": 0,
+          "x": 239,
+          "y": 158,
+          "zOrder": 1,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "Kenney",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\p1_jump.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\p1_jump.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "debug",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "For more game templates and examples, visit gametemplates.itch.io",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Try any of the custom functions here",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "description": "",
+      "extensionNamespace": "",
+      "fullName": "",
+      "name": "CustomFunctions",
+      "version": "",
+      "eventsFunctions": [
+        {
+          "description": "Move an object back and forth vertically or horizontally",
+          "fullName": "Move object back and forth",
+          "functionType": "Action",
+          "name": "MoveObjectBackAndForth",
+          "sentence": "Move _PARAM1_ back and forth in _PARAM2_ direction _PARAM3_ pixels at speed _PARAM4_ p/s",
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "disabled": false,
+              "folded": false,
+              "name": "Initialize",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "at the beginning of the scene:\n-get initial position of the object on the X axis\n-get the initial position of the object on the Y axis\n-set max distance the object moving back and forth from it initial position\n-set movement speed\n-set movement direction horizontal or vertical",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "initialX",
+                        "=",
+                        "Object.X()"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "initialY",
+                        "=",
+                        "Object.Y()"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "maxDistance",
+                        "=",
+                        "GetArgumentAsNumber(\"Distance\")"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "movementSpeed",
+                        "=",
+                        "GetArgumentAsNumber(\"MovementSpeed\")"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "movementDirection",
+                        "=",
+                        "ToLowerCase(GetArgumentAsString(\"Direction\"))"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "if movement direction is horizontal, change the X position of the object by maxDistance to kick start the movement horizontally",
+                      "comment2": ""
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "movementDirection",
+                            "=",
+                            "\"horizontal\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "MettreX"
+                          },
+                          "parameters": [
+                            "Object",
+                            "+",
+                            "Variable(maxDistance)"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "if movement direction is vertical, change the Y position of the object by maxDistance to kick start the movement vertically",
+                      "comment2": ""
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "movementDirection",
+                            "=",
+                            "\"vertical\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "MettreY"
+                          },
+                          "parameters": [
+                            "Object",
+                            "+",
+                            "Variable(maxDistance)"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "disabled": false,
+              "folded": true,
+              "name": "move object horizontally (LEFT-RIGHT)",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "movementDirection",
+                        "=",
+                        "\"horizontal\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "move the object right if position was <= than initialX - maxDistance",
+                      "comment2": ""
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Object",
+                            "<=",
+                            "Object.Variable(initialX) - Variable(maxDistance)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Arreter"
+                          },
+                          "parameters": [
+                            "Object"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "AddForceXY"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Variable(movementSpeed)",
+                            "0",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "move the object left if position was >= than initialX + maxDistance",
+                      "comment2": ""
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Object",
+                            ">=",
+                            "Object.Variable(initialX) + Variable(maxDistance)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Arreter"
+                          },
+                          "parameters": [
+                            "Object"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "AddForceXY"
+                          },
+                          "parameters": [
+                            "Object",
+                            "-Variable(movementSpeed)",
+                            "0",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "disabled": false,
+              "folded": true,
+              "name": "move object vertically (UP-DOWN)",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "movementDirection",
+                        "=",
+                        "\"vertical\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "move the object down if position was <= than initialY - maxDistance",
+                      "comment2": ""
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PosY"
+                          },
+                          "parameters": [
+                            "Object",
+                            "<=",
+                            "Object.Variable(initialY) - Variable(maxDistance)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Arreter"
+                          },
+                          "parameters": [
+                            "Object"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "AddForceXY"
+                          },
+                          "parameters": [
+                            "Object",
+                            "0",
+                            "Variable(movementSpeed)",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "move the object up if position was >= than initialY + maxDistance",
+                      "comment2": ""
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PosY"
+                          },
+                          "parameters": [
+                            "Object",
+                            ">=",
+                            "Object.Variable(initialY) + Variable(maxDistance)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Arreter"
+                          },
+                          "parameters": [
+                            "Object"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "AddForceXY"
+                          },
+                          "parameters": [
+                            "Object",
+                            "0",
+                            "-Variable(movementSpeed)",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Object to move",
+              "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "objectList"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Choose the direction of movement. Can be \"horizontal\" or \"vertical\"",
+              "name": "Direction",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "string"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Distance the object going to move from it initial position",
+              "name": "Distance",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "expression"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Movement speed of the object",
+              "name": "MovementSpeed",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "expression"
+            }
+          ]
+        },
+        {
+          "description": "Drag camera with the pointer",
+          "fullName": "Drag camera with the pointer",
+          "functionType": "Action",
+          "name": "DragCameraWithPointer",
+          "sentence": "Drag camera _PARAM1_ on layer _PARAM2_ in _PARAM3_ direction with the pointer",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "when mouse button is pressed, get start position of mouse",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "scrollStartX",
+                        "=",
+                        "MouseX(\"\",0)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "scrollStartY",
+                        "=",
+                        "MouseY(\"\",0)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "get direction selected",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "selected_direction",
+                        "=",
+                        "ToLowerCase(GetArgumentAsString(\"Direction\"))"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "when mouse button is pressed, get current position of mouse and calculate distance between the previous and current position on X and Y axis",
+                      "comment2": ""
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "scrollTargetX",
+                            "=",
+                            "MouseX(\"\",0)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "scrollTargetY",
+                            "=",
+                            "MouseY(\"\",0)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "X",
+                            "=",
+                            "Variable(scrollTargetX) - Variable(scrollStartX)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Y",
+                            "=",
+                            "Variable(scrollTargetY) - Variable(scrollStartY)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "scrollDistanceX",
+                            "=",
+                            "sqrt(Variable(X) * Variable(X))"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "scrollDistanceY",
+                            "=",
+                            "sqrt(Variable(Y) * Variable(Y))"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "if selected direction is horizontal or both",
+                      "comment2": ""
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarSceneTxt"
+                              },
+                              "parameters": [
+                                "selected_direction",
+                                "=",
+                                "\"horizontal\""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarSceneTxt"
+                              },
+                              "parameters": [
+                                "selected_direction",
+                                "=",
+                                "\"both\""
+                              ],
+                              "subInstructions": []
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "when mouse button is pressed, move camera on X axis",
+                          "comment2": ""
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "scrollTargetX",
+                                "<",
+                                "Variable(scrollStartX)"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarScene"
+                                  },
+                                  "parameters": [
+                                    "scrollDistanceX",
+                                    ">",
+                                    "1"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "CameraX"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "+",
+                                    "Variable(scrollDistanceX)",
+                                    "GetArgumentAsString(\"CamLayer\")",
+                                    "GetArgumentAsNumber(\"CamNumber\")"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            }
+                          ]
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "scrollTargetX",
+                                ">",
+                                "Variable(scrollStartX)"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarScene"
+                                  },
+                                  "parameters": [
+                                    "scrollDistanceX",
+                                    ">",
+                                    "1"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "CameraX"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "-",
+                                    "Variable(scrollDistanceX)",
+                                    "GetArgumentAsString(\"CamLayer\")",
+                                    "GetArgumentAsNumber(\"CamNumber\")"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "if direction is vertical or both",
+                      "comment2": ""
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarSceneTxt"
+                              },
+                              "parameters": [
+                                "selected_direction",
+                                "=",
+                                "\"vertical\""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarSceneTxt"
+                              },
+                              "parameters": [
+                                "selected_direction",
+                                "=",
+                                "\"both\""
+                              ],
+                              "subInstructions": []
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "when mouse button is pressed, move camera on Y axis",
+                          "comment2": ""
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "scrollTargetY",
+                                "<",
+                                "Variable(scrollStartY)"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarScene"
+                                  },
+                                  "parameters": [
+                                    "scrollDistanceY",
+                                    ">",
+                                    "1"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "CameraY"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "+",
+                                    "Variable(scrollDistanceY)",
+                                    "GetArgumentAsString(\"CamLayer\")",
+                                    "GetArgumentAsNumber(\"CamNumber\")"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            }
+                          ]
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "scrollTargetY",
+                                ">",
+                                "Variable(scrollStartY)"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarScene"
+                                  },
+                                  "parameters": [
+                                    "scrollDistanceY",
+                                    ">",
+                                    "1"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "CameraY"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "-",
+                                    "Variable(scrollDistanceY)",
+                                    "GetArgumentAsString(\"CamLayer\")",
+                                    "GetArgumentAsNumber(\"CamNumber\")"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Camera number to drag (default: 0)",
+              "name": "CamNumber",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "expression"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Name of camera layer (default \"\")",
+              "name": "CamLayer",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "string"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Direction you want to drag the camera. It can be \"vertical\" or  \"horizontal\" or \"both\"",
+              "name": "Direction",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "description": "Load image from URL and replace the current animation of an object",
+          "fullName": "Load image from URL",
+          "functionType": "Action",
+          "name": "LoadImageFromURL",
+          "sentence": "Load image from URL and replace current animation of object _PARAM2_",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "URL to test \"http://4ian.github.io/GD-Documentation/GDCore%20Documentation/gdlogo.png\"",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "This script load an image from a URL and replace the image of the object as the selected animation",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "url",
+                    "=",
+                    "GetArgumentAsString(\"ImageURL\")"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "object",
+                    "=",
+                    "Object.ObjectName()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "animation",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": "\nvar object = runtimeScene.getVariables().get(\"object\").getAsString(); //get object from scene variable\nvar anim = runtimeScene.getVariables().get(\"animation\").getAsNumber(); //get animation number from scene variable\nvar url = runtimeScene.getVariables().get(\"url\").getAsString(); // get the url from scene variable\n\nruntimeScene.myCallback = function(loader, resources){ // loader and ressources come from PIXI.loader\n\n    var mySprite= resources[\"Sprite_Logo_GDevelop\"]; //get the image from PIXI ressources\n    \n    var game = runtimeScene.getGame(); //get the game currently running\n    \n    var object_texture_image = runtimeScene.getObjects(object); // Get all the objects called \"My_picture\"\n\n    var object_texture_image_renderer = object_texture_image[anim].getRendererObject(); // get the frist (and unique) objet called \"My_picture\" and get this renderer (PIXI sprite)\n\n    object_texture_image_renderer.texture = mySprite.texture; // change the texture in renderer (PIXI sprite)\n  \n\n};\n\nPIXI.loader.reset(); // reset the loader because if you press many times M key the ressources \"Sprite_Logo_GDevelop\" exist and crash your application\nPIXI.loader.add(\"Sprite_Logo_GDevelop\", url);  // here change the URL for get you own images from web !\nPIXI.loader.load(runtimeScene.myCallback); // Use callback for load the new image",
+                  "parameterObjects": ""
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "The URL you want to load the image from, for example \"http://mywebsite/image.png\"",
+              "name": "ImageURL",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "string"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "The object going to use the image",
+              "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            }
+          ]
+        },
+        {
+          "description": "Convert text to voice",
+          "fullName": "Text to speech",
+          "functionType": "Action",
+          "name": "TextToSpeech",
+          "sentence": "Convert text _PARAM1_ to voice",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Get the text parameter and convert it to voice using text to speech API\nNote that, this feature may not work with Chromium and Cordova and similar projects using Chromium",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "speech",
+                    "=",
+                    "GetArgumentAsString(\"TextToSpeech\")"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": "//Get scene variables\nvar variables = runtimeScene.getVariables();\nvar speech = variables.get(\"speech\").getAsString();\n\nspeak(speech);\n \n// say a message\nfunction speak(text, callback) {\n var u = new SpeechSynthesisUtterance();\n u.text = text;\n u.lang = 'en-US';\n \n u.onend = function () {\n if (callback) {\n callback();\n }\n };\n \n u.onerror = function (e) {\n if (callback) {\n callback(e);\n }\n };\n \n speechSynthesis.speak(u);\n}\n\n//Thanks to https://stephenwalther.com/archive/2015/01/05/using-html5-speech-recognition-and-text-to-speech\n//for the original code",
+                  "parameterObjects": ""
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Text you want to convert to voice",
+              "name": "TextToSpeech",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "description": "Snap object to a virtual grid in the scene (it is not the grid used in the editor)",
+          "fullName": "Snap object to virtual grid",
+          "functionType": "Action",
+          "name": "SnapObjectToVirtualGrid",
+          "sentence": "Snap _PARAM1_ to virtual grid using Cell Width _PARAM2_ and Cell Height _PARAM3_",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "At the beginning, set the cell width and height of the in-game grid (it is not the grid used in the scene editor)\nit is going to override in case you did set a different cell size before",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "cell_width",
+                    "=",
+                    "GetArgumentAsNumber(\"CellWidth\")"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "cell_height",
+                    "=",
+                    "GetArgumentAsNumber(\"CellHeight\")"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Round the Object position to snap to the in-game grid",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "Variable(cell_width)*round(Object.X()/Variable(cell_width))",
+                    "=",
+                    "Variable(cell_height)*round(Object.Y()/Variable(cell_height))"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Object you want to snap to grid",
+              "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "objectList"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Width of an indivisual cell in the virtual grid (optional in case you have already set the cell width)",
+              "name": "CellWidth",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "expression"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Height of an individual cell in the virtual grid (optional in case you have already set the cell height)",
+              "name": "CellHeight",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "expression"
+            }
+          ]
+        },
+        {
+          "description": "Set cell size of virtual grid (it is not the grid used in the editor)",
+          "fullName": "Set cell size of virtual grid",
+          "functionType": "Action",
+          "name": "SetVirtualGridCellSize",
+          "sentence": "Set Cell Width to _PARAM1_ and Cell Height to _PARAM2_ pixels of virtual grid",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "At the beginning, set the cell width and height of the in-game grid (it is not the grid used in the scene editor)",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "cell_width",
+                    "=",
+                    "GetArgumentAsNumber(\"CellWidth\")"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "cell_height",
+                    "=",
+                    "GetArgumentAsNumber(\"CellHeight\")"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Width of an individual cell in the grid",
+              "name": "CellWidth",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "expression"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Height of an individual cell in the grid",
+              "name": "CellHeight",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "expression"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
