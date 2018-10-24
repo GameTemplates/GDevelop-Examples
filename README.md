@@ -8,4 +8,4 @@ Note: Images, sounds and fonts are included for demonstation purposes only for n
 In case you like what we do, you can support us with a small amount of donation at:
 https://gametemplates.itch.io/gdevelop-examples
 
-You can also contributo with new examples or help improving the existing ones. 
+You can also contribute with new examples or help improving the existing ones. 
