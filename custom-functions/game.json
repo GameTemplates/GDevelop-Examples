@@ -12,7 +12,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\szoszo\\Desktop\\Projects\\gametemplates\\gdevelop5\\custom-functions\\game.json",
+    "projectFile": "C:\\Users\\szoszo\\Desktop\\Projects\\gametemplates\\GIT\\GDevelop-Examples\\custom-functions\\game.json",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -106,6 +106,15 @@
         "name": "images\\p1_jump.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/voiture.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\voiture.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -151,8 +160,8 @@
           "locked": false,
           "name": "debug",
           "width": 0,
-          "x": 154,
-          "y": 95,
+          "x": 8,
+          "y": 14,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -175,6 +184,21 @@
               "value": 1
             }
           ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Car",
+          "width": 0,
+          "x": 399,
+          "y": 183,
+          "zOrder": 3,
+          "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -253,6 +277,44 @@
           ]
         },
         {
+          "name": "Car",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\voiture.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "bold": false,
           "italic": false,
           "name": "debug",
@@ -261,7 +323,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Text",
+          "string": "debug",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -2020,6 +2082,190 @@
               "optional": false,
               "supplementaryInformation": "",
               "type": "expression"
+            }
+          ]
+        },
+        {
+          "description": "Pin an object to an other object",
+          "fullName": "Pin object to another",
+          "functionType": "Action",
+          "name": "PinObjectToAnother",
+          "sentence": "Pin _PARAM1_ to _PARAM2_",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "calculate distance and angle of child object at the beginning of the scene",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Calculate the child distance from parent.\nAs the position and rotation of the children can not be changed during runtime, we need to do this calculations only at the beginning. After, we update the child position and angle using the values from here.",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Child",
+                        "InitialAngle",
+                        "=",
+                        "Child.Angle()"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Child",
+                        "DistanceToParent",
+                        "=",
+                        "Parent.Distance(Child)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Child",
+                        "AngleToParent",
+                        "=",
+                        "ToDeg(atan2(Child.Y() - Parent.Y(), Child.X() - Parent.X()))"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Update the angle and position of all child objects relative to the parent.",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreAutour"
+                  },
+                  "parameters": [
+                    "Child",
+                    "Parent",
+                    "Child.Variable(DistanceToParent)",
+                    "Parent.Angle() + Child.Variable(AngleToParent)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Child",
+                    "=",
+                    "Parent.Angle() + Child.Variable(InitialAngle)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Child object going to follow the movement and rotation of the parent",
+              "name": "Child",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "objectList"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Parent object that you going to move and rotate",
+              "name": "Parent",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "objectList"
             }
           ]
         }

@@ -6,3 +6,4 @@ List of functions currently included:
 >Text to speech, convert any text you enter to voice
 >Snap selected object to virtual grid with selected cell width and height
 >Set Virtual grid cell size, if you want to change it later or in case you want to snap to grid an object only in certain case you need to make sure you set the cell size first
+>Pin selected object to another selected object. Child going to follow the movement and rotation of the parent
