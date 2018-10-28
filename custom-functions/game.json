@@ -4034,7 +4034,7 @@
               "description": "Object you want to save the size of",
               "name": "Object",
               "optional": false,
-              "supplementaryInformation": "",
+              "supplementaryInformation": "Sprite",
               "type": "objectList"
             },
             {
