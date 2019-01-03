@@ -7,14 +7,16 @@
     "revision": 0
   },
   "properties": {
+    "adMobAppId": "",
     "folderProject": false,
     "linuxExecutableFilename": "",
     "macExecutableFilename": "",
-    "orientation": "default",
-    "packageName": "",
-    "projectFile": "C:\\Users\\szoszo\\Desktop\\Projects\\gametemplates\\gdevelop5\\on-screen-joystick\\game.json",
-    "sizeOnStartupMode": "",
+    "orientation": "landscape",
+    "packageName": "com.example.platformer",
+    "projectFile": "C:\\Users\\szoszo\\Desktop\\Projects\\gametemplates\\gdevelop5\\on-screen-joystick\\on-screen-joystick.json",
+    "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
+    "version": "1.0.0",
     "winExecutableFilename": "",
     "winExecutableIconFile": "",
     "name": "Platformer",
@@ -95,9 +97,6 @@
       },
       {
         "name": "TextObject"
-      },
-      {
-        "name": "DraggableBehavior"
       }
     ],
     "platforms": [
@@ -113,6 +112,7 @@
         "alwaysLoaded": false,
         "file": "p1_stand.png",
         "kind": "image",
+        "metadata": "",
         "name": "p1_stand.png",
         "smoothed": true,
         "userAdded": false
@@ -121,6 +121,7 @@
         "alwaysLoaded": false,
         "file": "p1_jump.png",
         "kind": "image",
+        "metadata": "",
         "name": "p1_jump.png",
         "smoothed": true,
         "userAdded": false
@@ -129,6 +130,7 @@
         "alwaysLoaded": false,
         "file": "p1_walk01.png",
         "kind": "image",
+        "metadata": "",
         "name": "p1_walk01.png",
         "smoothed": true,
         "userAdded": false
@@ -137,6 +139,7 @@
         "alwaysLoaded": false,
         "file": "p1_walk02.png",
         "kind": "image",
+        "metadata": "",
         "name": "p1_walk02.png",
         "smoothed": true,
         "userAdded": false
@@ -145,6 +148,7 @@
         "alwaysLoaded": false,
         "file": "p1_walk03.png",
         "kind": "image",
+        "metadata": "",
         "name": "p1_walk03.png",
         "smoothed": true,
         "userAdded": false
@@ -153,6 +157,7 @@
         "alwaysLoaded": false,
         "file": "p1_walk04.png",
         "kind": "image",
+        "metadata": "",
         "name": "p1_walk04.png",
         "smoothed": true,
         "userAdded": false
@@ -161,6 +166,7 @@
         "alwaysLoaded": false,
         "file": "p1_walk05.png",
         "kind": "image",
+        "metadata": "",
         "name": "p1_walk05.png",
         "smoothed": true,
         "userAdded": false
@@ -169,6 +175,7 @@
         "alwaysLoaded": false,
         "file": "p1_walk06.png",
         "kind": "image",
+        "metadata": "",
         "name": "p1_walk06.png",
         "smoothed": true,
         "userAdded": false
@@ -177,6 +184,7 @@
         "alwaysLoaded": false,
         "file": "p1_walk07.png",
         "kind": "image",
+        "metadata": "",
         "name": "p1_walk07.png",
         "smoothed": true,
         "userAdded": false
@@ -185,6 +193,7 @@
         "alwaysLoaded": false,
         "file": "p1_walk08.png",
         "kind": "image",
+        "metadata": "",
         "name": "p1_walk08.png",
         "smoothed": true,
         "userAdded": false
@@ -193,6 +202,7 @@
         "alwaysLoaded": false,
         "file": "p1_walk09.png",
         "kind": "image",
+        "metadata": "",
         "name": "p1_walk09.png",
         "smoothed": true,
         "userAdded": false
@@ -201,6 +211,7 @@
         "alwaysLoaded": false,
         "file": "p1_walk10.png",
         "kind": "image",
+        "metadata": "",
         "name": "p1_walk10.png",
         "smoothed": true,
         "userAdded": false
@@ -209,6 +220,7 @@
         "alwaysLoaded": false,
         "file": "p1_walk11.png",
         "kind": "image",
+        "metadata": "",
         "name": "p1_walk11.png",
         "smoothed": true,
         "userAdded": false
@@ -217,6 +229,7 @@
         "alwaysLoaded": false,
         "file": "brickWall.png",
         "kind": "image",
+        "metadata": "",
         "name": "brickWall.png",
         "smoothed": true,
         "userAdded": false
@@ -225,6 +238,7 @@
         "alwaysLoaded": false,
         "file": "bridge.png",
         "kind": "image",
+        "metadata": "",
         "name": "bridge.png",
         "smoothed": true,
         "userAdded": false
@@ -233,6 +247,7 @@
         "alwaysLoaded": false,
         "file": "grassHalfMid.png",
         "kind": "image",
+        "metadata": "",
         "name": "grassHalfMid.png",
         "smoothed": true,
         "userAdded": true
@@ -241,6 +256,7 @@
         "alwaysLoaded": false,
         "file": "castleCenter.png",
         "kind": "image",
+        "metadata": "",
         "name": "castleCenter.png",
         "smoothed": true,
         "userAdded": true
@@ -249,6 +265,7 @@
         "alwaysLoaded": false,
         "file": "bridgeLogs.png",
         "kind": "image",
+        "metadata": "",
         "name": "bridgeLogs.png",
         "smoothed": true,
         "userAdded": true
@@ -257,6 +274,7 @@
         "alwaysLoaded": false,
         "file": "Left.png",
         "kind": "image",
+        "metadata": "",
         "name": "Left.png",
         "smoothed": true,
         "userAdded": false
@@ -265,6 +283,7 @@
         "alwaysLoaded": false,
         "file": "Right.png",
         "kind": "image",
+        "metadata": "",
         "name": "Right.png",
         "smoothed": true,
         "userAdded": false
@@ -273,6 +292,7 @@
         "alwaysLoaded": false,
         "file": "ladder_mid.png",
         "kind": "image",
+        "metadata": "",
         "name": "ladder_mid.png",
         "smoothed": true,
         "userAdded": true
@@ -281,6 +301,7 @@
         "alwaysLoaded": false,
         "file": "Grass.png",
         "kind": "image",
+        "metadata": "",
         "name": "grass.png",
         "smoothed": true,
         "userAdded": true
@@ -289,6 +310,7 @@
         "alwaysLoaded": false,
         "file": "PlayerArea.png",
         "kind": "image",
+        "metadata": "",
         "name": "PlayerArea.png",
         "smoothed": true,
         "userAdded": false
@@ -297,6 +319,7 @@
         "alwaysLoaded": false,
         "file": "slimeWalk1.png",
         "kind": "image",
+        "metadata": "",
         "name": "slimeWalk1.png",
         "smoothed": true,
         "userAdded": false
@@ -305,6 +328,7 @@
         "alwaysLoaded": false,
         "file": "slimeWalk2.png",
         "kind": "image",
+        "metadata": "",
         "name": "slimeWalk2.png",
         "smoothed": true,
         "userAdded": false
@@ -313,6 +337,7 @@
         "alwaysLoaded": false,
         "file": "slimeDead.png",
         "kind": "image",
+        "metadata": "",
         "name": "slimeDead.png",
         "smoothed": true,
         "userAdded": false
@@ -321,6 +346,7 @@
         "alwaysLoaded": false,
         "file": "flyFly1.png",
         "kind": "image",
+        "metadata": "",
         "name": "flyFly1.png",
         "smoothed": true,
         "userAdded": false
@@ -329,6 +355,7 @@
         "alwaysLoaded": false,
         "file": "flyFly2.png",
         "kind": "image",
+        "metadata": "",
         "name": "flyFly2.png",
         "smoothed": true,
         "userAdded": false
@@ -337,6 +364,7 @@
         "alwaysLoaded": false,
         "file": "flyDead.png",
         "kind": "image",
+        "metadata": "",
         "name": "flyDead.png",
         "smoothed": true,
         "userAdded": false
@@ -345,6 +373,7 @@
         "alwaysLoaded": false,
         "file": "cloud1.png",
         "kind": "image",
+        "metadata": "",
         "name": "cloud1.png",
         "smoothed": false,
         "userAdded": false
@@ -353,6 +382,7 @@
         "alwaysLoaded": false,
         "file": "cloud2.png",
         "kind": "image",
+        "metadata": "",
         "name": "cloud2.png",
         "smoothed": false,
         "userAdded": false
@@ -361,6 +391,7 @@
         "alwaysLoaded": false,
         "file": "cloud3.png",
         "kind": "image",
+        "metadata": "",
         "name": "cloud3.png",
         "smoothed": false,
         "userAdded": false
@@ -369,6 +400,7 @@
         "alwaysLoaded": false,
         "file": "bush.png",
         "kind": "image",
+        "metadata": "",
         "name": "bush.png",
         "smoothed": true,
         "userAdded": false
@@ -377,6 +409,7 @@
         "alwaysLoaded": false,
         "file": "cactus.png",
         "kind": "image",
+        "metadata": "",
         "name": "cactus.png",
         "smoothed": true,
         "userAdded": false
@@ -385,6 +418,7 @@
         "alwaysLoaded": false,
         "file": "plant.png",
         "kind": "image",
+        "metadata": "",
         "name": "plant.png",
         "smoothed": true,
         "userAdded": false
@@ -393,6 +427,7 @@
         "alwaysLoaded": false,
         "file": "coinGold.png",
         "kind": "image",
+        "metadata": "",
         "name": "coinGold.png",
         "smoothed": true,
         "userAdded": true
@@ -401,6 +436,7 @@
         "alwaysLoaded": false,
         "file": "shadedDark06.png",
         "kind": "image",
+        "metadata": "",
         "name": "shadedDark06.png",
         "smoothed": true,
         "userAdded": false
@@ -409,6 +445,7 @@
         "alwaysLoaded": false,
         "file": "shadedDark05.png",
         "kind": "image",
+        "metadata": "",
         "name": "shadedDark05.png",
         "smoothed": true,
         "userAdded": false
@@ -417,6 +454,7 @@
         "alwaysLoaded": false,
         "file": "shadedDark45.png",
         "kind": "image",
+        "metadata": "",
         "name": "shadedDark45.png",
         "smoothed": true,
         "userAdded": false
@@ -425,23 +463,8 @@
         "alwaysLoaded": false,
         "file": "shadedDark09.png",
         "kind": "image",
+        "metadata": "",
         "name": "shadedDark09.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "joY.png",
-        "kind": "image",
-        "name": "joY.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "joYback.png",
-        "kind": "image",
-        "name": "joYback.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -466,17 +489,17 @@
       "title": "",
       "v": 244,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridB": 255,
         "gridG": 180,
-        "gridHeight": 8,
+        "gridHeight": 70,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridR": 158,
-        "gridWidth": 8,
+        "gridWidth": 70,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 0.715555
+        "zoomFactor": 0.5306
       },
       "objectsGroups": [
         {
@@ -1045,7 +1068,7 @@
           "width": 0,
           "x": 2181.78,
           "y": 59.0157,
-          "zOrder": 1,
+          "zOrder": -2,
           "numberProperties": [
             {
               "name": "animation",
@@ -1065,7 +1088,7 @@
           "width": 0,
           "x": 151.785,
           "y": 182.016,
-          "zOrder": 1,
+          "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1080,7 +1103,7 @@
           "width": 0,
           "x": 530.784,
           "y": 312.015,
-          "zOrder": 1,
+          "zOrder": -2,
           "numberProperties": [
             {
               "name": "animation",
@@ -1100,7 +1123,7 @@
           "width": 0,
           "x": 1480.78,
           "y": 134.016,
-          "zOrder": 1,
+          "zOrder": -2,
           "numberProperties": [
             {
               "name": "animation",
@@ -1120,7 +1143,7 @@
           "width": 0,
           "x": 2078.78,
           "y": 385.016,
-          "zOrder": 1,
+          "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1135,7 +1158,7 @@
           "width": 0,
           "x": 1847.78,
           "y": 164.016,
-          "zOrder": 1,
+          "zOrder": -2,
           "numberProperties": [
             {
               "name": "animation",
@@ -1155,7 +1178,7 @@
           "width": 0,
           "x": 1258.78,
           "y": 357.015,
-          "zOrder": 1,
+          "zOrder": -2,
           "numberProperties": [
             {
               "name": "animation",
@@ -1175,7 +1198,7 @@
           "width": 0,
           "x": 664.784,
           "y": 170.016,
-          "zOrder": 1,
+          "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1190,7 +1213,7 @@
           "width": 0,
           "x": 2078.57,
           "y": 503.108,
-          "zOrder": 1,
+          "zOrder": -1,
           "numberProperties": [
             {
               "name": "animation",
@@ -1245,7 +1268,7 @@
           "width": 94,
           "x": 1249.78,
           "y": 500.015,
-          "zOrder": 1,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1275,7 +1298,7 @@
           "width": 0,
           "x": 925.784,
           "y": 505.015,
-          "zOrder": 1,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1290,7 +1313,7 @@
           "width": 0,
           "x": 1413.78,
           "y": 502.015,
-          "zOrder": 1,
+          "zOrder": -1,
           "numberProperties": [
             {
               "name": "animation",
@@ -1310,7 +1333,7 @@
           "width": 58,
           "x": 1371.78,
           "y": 524.016,
-          "zOrder": 1,
+          "zOrder": -1,
           "numberProperties": [
             {
               "name": "animation",
@@ -1330,7 +1353,7 @@
           "width": 58,
           "x": 1435.78,
           "y": 525.016,
-          "zOrder": 1,
+          "zOrder": -1,
           "numberProperties": [
             {
               "name": "animation",
@@ -1368,8 +1391,8 @@
           "locked": false,
           "name": "BackgroundObjects",
           "width": 0,
-          "x": -62.2151,
-          "y": 472.015,
+          "x": -43,
+          "y": 501,
           "zOrder": 1,
           "numberProperties": [
             {
@@ -1772,44 +1795,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "GUI",
-          "locked": false,
-          "name": "LeftButton",
-          "width": 0,
-          "x": 110.569,
-          "y": -148.487,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "GUI",
-          "locked": false,
-          "name": "RightButton",
-          "width": 0,
-          "x": 202.477,
-          "y": -152.395,
-          "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 202.235,
           "layer": "GUI",
           "locked": false,
           "name": "ArrowButtonsBg",
-          "width": 0,
-          "x": 111.523,
-          "y": -199.441,
+          "width": 202.235,
+          "x": 18,
+          "y": 379,
           "zOrder": -10,
           "numberProperties": [],
           "stringProperties": [],
@@ -1817,75 +1810,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 107.992,
           "layer": "GUI",
           "locked": false,
           "name": "JumpButton",
-          "width": 0,
-          "x": 674,
-          "y": 471,
+          "width": 107.992,
+          "x": 659,
+          "y": 457,
           "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 210,
-          "layer": "GUI",
-          "locked": false,
-          "name": "Joy_BG",
-          "width": 210,
-          "x": 32,
-          "y": 384,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 80,
-          "layer": "GUI",
-          "locked": false,
-          "name": "Joy",
-          "width": 80,
-          "x": 96,
-          "y": 448,
-          "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "GUI",
-          "locked": false,
-          "name": "left_contact",
-          "width": 32,
-          "x": 40,
-          "y": 472,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "GUI",
-          "locked": false,
-          "name": "right_contact",
-          "width": 32,
-          "x": 200,
-          "y": 472,
-          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1919,8 +1852,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 36,
-                        "y": 46
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -1929,16 +1862,16 @@
                             "y": 0
                           },
                           {
-                            "x": 72,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 72,
-                            "y": 92
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 92
+                            "y": 0
                           }
                         ]
                       ]
@@ -1967,8 +1900,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 36,
-                        "y": 47
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -1977,16 +1910,16 @@
                             "y": 0
                           },
                           {
-                            "x": 72,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 72,
-                            "y": 94
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 94
+                            "y": 0
                           }
                         ]
                       ]
@@ -2015,8 +1948,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 36,
-                        "y": 48.5
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -2025,16 +1958,16 @@
                             "y": 0
                           },
                           {
-                            "x": 72,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 72,
-                            "y": 97
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 97
+                            "y": 0
                           }
                         ]
                       ]
@@ -2051,8 +1984,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 36,
-                        "y": 48.5
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -2061,16 +1994,16 @@
                             "y": 0
                           },
                           {
-                            "x": 72,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 72,
-                            "y": 97
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 97
+                            "y": 0
                           }
                         ]
                       ]
@@ -2087,8 +2020,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 36,
-                        "y": 48.5
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -2097,16 +2030,16 @@
                             "y": 0
                           },
                           {
-                            "x": 72,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 72,
-                            "y": 97
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 97
+                            "y": 0
                           }
                         ]
                       ]
@@ -2123,8 +2056,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 36,
-                        "y": 48.5
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -2133,16 +2066,16 @@
                             "y": 0
                           },
                           {
-                            "x": 72,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 72,
-                            "y": 97
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 97
+                            "y": 0
                           }
                         ]
                       ]
@@ -2159,8 +2092,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 36,
-                        "y": 48.5
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -2169,16 +2102,16 @@
                             "y": 0
                           },
                           {
-                            "x": 72,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 72,
-                            "y": 97
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 97
+                            "y": 0
                           }
                         ]
                       ]
@@ -2224,8 +2157,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 35,
-                        "y": 35
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -2234,16 +2167,16 @@
                             "y": 0
                           },
                           {
-                            "x": 70,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 70,
-                            "y": 70
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 70
+                            "y": 0
                           }
                         ]
                       ]
@@ -2272,8 +2205,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 35,
-                        "y": 35
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -2282,16 +2215,16 @@
                             "y": 0
                           },
                           {
-                            "x": 70,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 70,
-                            "y": 70
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 70
+                            "y": 0
                           }
                         ]
                       ]
@@ -2337,8 +2270,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 35,
-                        "y": 12.5
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -2347,16 +2280,16 @@
                             "y": 0
                           },
                           {
-                            "x": 70,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 70,
-                            "y": 25
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 25
+                            "y": 0
                           }
                         ]
                       ]
@@ -2436,8 +2369,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 35,
-                        "y": 10
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -2446,16 +2379,16 @@
                             "y": 0
                           },
                           {
-                            "x": 70,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 70,
-                            "y": 20
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 20
+                            "y": 0
                           }
                         ]
                       ]
@@ -2493,8 +2426,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 13.5,
-                        "y": 13.5
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -2503,16 +2436,16 @@
                             "y": 0
                           },
                           {
-                            "x": 27,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 27,
-                            "y": 27
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 27
+                            "y": 0
                           }
                         ]
                       ]
@@ -2550,8 +2483,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 13.5,
-                        "y": 13.5
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -2560,16 +2493,16 @@
                             "y": 0
                           },
                           {
-                            "x": 27,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 27,
-                            "y": 27
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 27
+                            "y": 0
                           }
                         ]
                       ]
@@ -2640,8 +2573,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 22.5,
-                        "y": 46
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -2650,16 +2583,16 @@
                             "y": 0
                           },
                           {
-                            "x": 45,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 45,
-                            "y": 92
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 92
+                            "y": 0
                           }
                         ]
                       ]
@@ -2718,8 +2651,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 25,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -2728,16 +2661,16 @@
                             "y": 0
                           },
                           {
-                            "x": 50,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 50,
-                            "y": 28
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 28
+                            "y": 0
                           }
                         ]
                       ]
@@ -2754,8 +2687,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 25.5,
-                        "y": 13
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -2764,16 +2697,16 @@
                             "y": 0
                           },
                           {
-                            "x": 51,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 51,
-                            "y": 26
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 26
+                            "y": 0
                           }
                         ]
                       ]
@@ -2802,8 +2735,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 29.5,
-                        "y": 6
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -2812,16 +2745,16 @@
                             "y": 0
                           },
                           {
-                            "x": 59,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 59,
-                            "y": 12
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 12
+                            "y": 0
                           }
                         ]
                       ]
@@ -2875,8 +2808,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 36,
-                        "y": 18
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -2885,16 +2818,16 @@
                             "y": 0
                           },
                           {
-                            "x": 72,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 72,
-                            "y": 36
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 36
+                            "y": 0
                           }
                         ]
                       ]
@@ -2911,8 +2844,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 37.5,
-                        "y": 15.5
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -2921,16 +2854,16 @@
                             "y": 0
                           },
                           {
-                            "x": 75,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 75,
-                            "y": 31
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 31
+                            "y": 0
                           }
                         ]
                       ]
@@ -2959,8 +2892,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 29.5,
-                        "y": 16.5
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -2969,16 +2902,16 @@
                             "y": 0
                           },
                           {
-                            "x": 59,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 59,
-                            "y": 33
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 33
+                            "y": 0
                           }
                         ]
                       ]
@@ -3016,8 +2949,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 64,
-                        "y": 35.5
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -3026,16 +2959,16 @@
                             "y": 0
                           },
                           {
-                            "x": 128,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 128,
-                            "y": 71
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 71
+                            "y": 0
                           }
                         ]
                       ]
@@ -3064,8 +2997,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 64.5,
-                        "y": 35.5
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -3074,16 +3007,16 @@
                             "y": 0
                           },
                           {
-                            "x": 129,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 129,
-                            "y": 71
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 71
+                            "y": 0
                           }
                         ]
                       ]
@@ -3112,8 +3045,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 64.5,
-                        "y": 35.5
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -3122,16 +3055,16 @@
                             "y": 0
                           },
                           {
-                            "x": 129,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 129,
-                            "y": 71
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 71
+                            "y": 0
                           }
                         ]
                       ]
@@ -3169,8 +3102,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 35,
-                        "y": 35
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -3179,16 +3112,16 @@
                             "y": 0
                           },
                           {
-                            "x": 70,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 70,
-                            "y": 70
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 70
+                            "y": 0
                           }
                         ]
                       ]
@@ -3217,8 +3150,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 35,
-                        "y": 35
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -3227,16 +3160,16 @@
                             "y": 0
                           },
                           {
-                            "x": 70,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 70,
-                            "y": 70
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 70
+                            "y": 0
                           }
                         ]
                       ]
@@ -3265,8 +3198,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 35,
-                        "y": 35
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -3275,16 +3208,16 @@
                             "y": 0
                           },
                           {
-                            "x": 70,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 70,
-                            "y": 70
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 70
+                            "y": 0
                           }
                         ]
                       ]
@@ -3340,8 +3273,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 18,
-                        "y": 18
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -3350,16 +3283,16 @@
                             "y": 0
                           },
                           {
-                            "x": 36,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 36,
-                            "y": 36
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 36
+                            "y": 0
                           }
                         ]
                       ]
@@ -3397,8 +3330,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 18,
-                        "y": 18
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -3407,16 +3340,16 @@
                             "y": 0
                           },
                           {
-                            "x": 36,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 36,
-                            "y": 36
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 36
+                            "y": 0
                           }
                         ]
                       ]
@@ -3454,8 +3387,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 38,
-                        "y": 30.5
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -3464,16 +3397,16 @@
                             "y": 0
                           },
                           {
-                            "x": 76,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 76,
-                            "y": 61
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 61
+                            "y": 0
                           }
                         ]
                       ]
@@ -3511,8 +3444,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 37.5,
-                        "y": 30.5
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -3521,16 +3454,16 @@
                             "y": 0
                           },
                           {
-                            "x": 75,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 75,
-                            "y": 61
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 61
+                            "y": 0
                           }
                         ]
                       ]
@@ -3546,7 +3479,17 @@
           "type": "Sprite",
           "updateIfNotVisible": true,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 2,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 2,
+              "type": "AnchorBehavior::AnchorBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -3568,8 +3511,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 40,
-                        "y": 40
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -3578,16 +3521,16 @@
                             "y": 0
                           },
                           {
-                            "x": 80,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 80,
-                            "y": 80
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 80
+                            "y": 0
                           }
                         ]
                       ]
@@ -3625,66 +3568,9 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 80,
-                        "y": 80
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 160,
-                            "y": 0
-                          },
-                          {
-                            "x": 160,
-                            "y": 160
-                          },
-                          {
-                            "x": 0,
-                            "y": 160
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Joy_BG",
-          "type": "Sprite",
-          "updateIfNotVisible": true,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 1,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "joYback.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
                         "x": 0,
                         "y": 0
                       },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 64,
-                        "y": 64
-                      },
                       "customCollisionMask": [
                         [
                           {
@@ -3692,192 +3578,16 @@
                             "y": 0
                           },
                           {
-                            "x": 128,
+                            "x": 0,
                             "y": 0
                           },
-                          {
-                            "x": 128,
-                            "y": 128
-                          },
-                          {
-                            "x": 0,
-                            "y": 128
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Joy",
-          "type": "Sprite",
-          "updateIfNotVisible": true,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Draggable",
-              "type": "DraggableBehavior::Draggable"
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 1,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "joY.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 24,
-                        "y": 24
-                      },
-                      "customCollisionMask": [
-                        [
                           {
                             "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 48,
-                            "y": 0
-                          },
-                          {
-                            "x": 48,
-                            "y": 48
-                          },
-                          {
-                            "x": 0,
-                            "y": 48
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "left_contact",
-          "type": "Sprite",
-          "updateIfNotVisible": true,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 1,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Left.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 13.5,
-                        "y": 13.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
                             "x": 0,
                             "y": 0
-                          },
-                          {
-                            "x": 27,
-                            "y": 0
-                          },
-                          {
-                            "x": 27,
-                            "y": 27
-                          },
-                          {
-                            "x": 0,
-                            "y": 27
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "right_contact",
-          "type": "Sprite",
-          "updateIfNotVisible": true,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 1,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Right.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 13.5,
-                        "y": 13.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 27,
-                            "y": 0
-                          },
-                          {
-                            "x": 27,
-                            "y": 27
-                          },
-                          {
-                            "x": 0,
-                            "y": 27
                           }
                         ]
                       ]
@@ -3893,59 +3603,6 @@
         {
           "disabled": false,
           "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "PlayerHitBox"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "Player",
-                "=",
-                "PlayerHitBox.X()-12",
-                "=",
-                "PlayerHitBox.Y()"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -3955,161 +3612,19 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Change the animation according to what the player do.",
-          "comment2": "On change l'animation en fonction de ce que fait le joueur."
+          "comment": "For more game examples and templates visit gametemplates.itch.io",
+          "comment2": ""
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "RShift"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Animation"
-                  },
-                  "parameters": [
-                    "Player",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Animation"
-                  },
-                  "parameters": [
-                    "Player",
-                    "=",
-                    "2"
-                  ],
-                  "subInstructions": []
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "jump.wav",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlatformBehavior::IsJumping"
-              },
-              "parameters": [
-                "PlayerHitBox",
-                "PlatformerObject"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "Player",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlatformBehavior::IsFalling"
-              },
-              "parameters": [
-                "PlayerHitBox",
-                "PlatformerObject"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "Player",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlatformBehavior::IsOnFloor"
-              },
-              "parameters": [
-                "PlayerHitBox",
-                "PlatformerObject"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
+          "folded": true,
+          "name": "Platformer template events (nothing has changed here)",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "disabled": false,
@@ -4118,12 +3633,11 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": true,
-                    "value": "PlatformBehavior::IsMoving"
+                    "inverted": false,
+                    "value": "DepartScene"
                   },
                   "parameters": [
-                    "PlayerHitBox",
-                    "PlatformerObject"
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -4132,12 +3646,116 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ChangeAnimation"
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "PlayerHitBox"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
                   },
                   "parameters": [
                     "Player",
                     "=",
-                    "0"
+                    "PlayerHitBox.X()-12",
+                    "=",
+                    "PlayerHitBox.Y()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Change the animation according to what the player do.",
+              "comment2": "On change l'animation en fonction de ce que fait le joueur."
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "RShift"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Animation"
+                      },
+                      "parameters": [
+                        "Player",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Animation"
+                      },
+                      "parameters": [
+                        "Player",
+                        "=",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "jump.wav",
+                    "",
+                    "",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -4152,7 +3770,7 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlatformBehavior::IsMoving"
+                    "value": "PlatformBehavior::IsJumping"
                   },
                   "parameters": [
                     "PlayerHitBox",
@@ -4170,535 +3788,797 @@
                   "parameters": [
                     "Player",
                     "=",
-                    "2"
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsFalling"
+                  },
+                  "parameters": [
+                    "PlayerHitBox",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "PlayerHitBox",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "PlatformBehavior::IsMoving"
+                      },
+                      "parameters": [
+                        "PlayerHitBox",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "Player",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::IsMoving"
+                      },
+                      "parameters": [
+                        "PlayerHitBox",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "Player",
+                        "=",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Right"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "no"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Make sure the camera follows the player.",
+              "comment2": "On s'assure que la caméra suit le joueur."
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CameraX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Player.X()",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Management of the moving platform:",
+              "comment2": "Gestion de la plateforme bougeante:"
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "GoLeft"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "GoRight"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "GoLeft",
+                    "MovingPlatform",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Arreter"
+                  },
+                  "parameters": [
+                    "MovingPlatform"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "MovingPlatform",
+                    "-150",
+                    "0",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "GoRight",
+                    "MovingPlatform",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Arreter"
+                  },
+                  "parameters": [
+                    "MovingPlatform"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "MovingPlatform",
+                    "150",
+                    "0",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Enemies:",
+              "comment2": "Enemis :"
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "EnemiesManagement"
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Objects:",
+              "comment2": "Objets:"
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "ObjectsManagement"
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "GUI:",
+              "comment2": "Elements de l'interface:"
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "GUIManagement"
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Touch controls",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "This is the original controls from the Platformer template, has been disabled but left here for reference to show you what is different\nThe difference is, we are no longer using the individual arrow buttons but only the background for reference where the touch need to happen and we simulate a Joystick so we can move the cursor and touch to change direction of character instead of releasing and pressing the button again",
+              "comment2": ""
+            },
+            {
+              "disabled": true,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SystemInfo::IsMobile"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "VirtualControls"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": true,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TouchSimulateMouse"
+                  },
+                  "parameters": [
+                    "",
+                    "no"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": true,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "LeftButton",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::SimulateLeftKey"
+                  },
+                  "parameters": [
+                    "PlayerHitBox",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": true,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "RightButton",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::SimulateRightKey"
+                  },
+                  "parameters": [
+                    "PlayerHitBox",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "If touch is on the Arrow button background",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "ArrowButtonsBg",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "If the position of the touch is > than the center point of the arrow button, move character Right",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisX"
+                      },
+                      "parameters": [
+                        "MouseX()",
+                        ">",
+                        "ArrowButtonsBg.X(Centre)",
+                        "\"GUI\"",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::SimulateRightKey"
+                      },
+                      "parameters": [
+                        "PlayerHitBox",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "If the position of the touch is < than the center point of the arrow button, move character Left",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisX"
+                      },
+                      "parameters": [
+                        "MouseX(\"GUI\",)",
+                        "<",
+                        "ArrowButtonsBg.X(Centre)",
+                        "\"GUI\"",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::SimulateLeftKey"
+                      },
+                      "parameters": [
+                        "PlayerHitBox",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "If the touch is on the jump button, jump the character",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "JumpButton",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::SimulateJumpKey"
+                  },
+                  "parameters": [
+                    "PlayerHitBox",
+                    "PlatformerObject"
                   ],
                   "subInstructions": []
                 }
               ],
               "events": []
             }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            }
           ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "FlipX"
-              },
-              "parameters": [
-                "Player",
-                "yes"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Right"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "FlipX"
-              },
-              "parameters": [
-                "Player",
-                "no"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Make sure the camera follows the player.",
-          "comment2": "On s'assure que la cam�ra suit le joueur."
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CameraX"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Player.X()",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Management of the moving platform:",
-          "comment2": "Gestion de la plateforme bougeante:"
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "GoLeft"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "GoRight"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "GoLeft",
-                "MovingPlatform",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Arreter"
-              },
-              "parameters": [
-                "MovingPlatform"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "MovingPlatform",
-                "-150",
-                "0",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "GoRight",
-                "MovingPlatform",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Arreter"
-              },
-              "parameters": [
-                "MovingPlatform"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "MovingPlatform",
-                "150",
-                "0",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Enemies:",
-          "comment2": "Enemis :"
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "EnemiesManagement"
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Objects:",
-          "comment2": "Objets:"
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "ObjectsManagement"
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "GUI:",
-          "comment2": "Elements de l'interface:"
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "GUIManagement"
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Virtual controls",
-          "comment2": ""
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AnyKeyPressed"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "VirtualControls"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TouchSimulateMouse"
-              },
-              "parameters": [
-                "",
-                "no"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "LeftButton",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlatformBehavior::SimulateLeftKey"
-              },
-              "parameters": [
-                "PlayerHitBox",
-                "PlatformerObject"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "RightButton",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlatformBehavior::SimulateRightKey"
-              },
-              "parameters": [
-                "PlayerHitBox",
-                "PlatformerObject"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "JumpButton",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlatformBehavior::SimulateJumpKey"
-              },
-              "parameters": [
-                "PlayerHitBox",
-                "PlatformerObject"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Joystick",
-          "comment2": ""
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "JOYSTICK"
+          "parameters": []
         }
       ],
       "layers": [
@@ -4738,6 +4618,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior"
+        },
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
@@ -5490,262 +5374,9 @@
           "events": []
         }
       ]
-    },
-    {
-      "associatedLayout": "New scene",
-      "lastChangeTimeStamp": 0,
-      "name": "JOYSTICK",
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "First i added the \"draggable behavior\" to the \"Joy\" object",
-          "comment2": ""
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": true,
-          "name": "Set_Position",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "DraggableBehavior::Dragged"
-                  },
-                  "parameters": [
-                    "Joy",
-                    "Draggable"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreAutour"
-                  },
-                  "parameters": [
-                    "Joy",
-                    "Joy_BG",
-                    "0",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Joy",
-                    "Joy_BG",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreAutour"
-                  },
-                  "parameters": [
-                    "Joy",
-                    "Joy_BG",
-                    "0",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": true,
-          "name": "Set_Movement",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Joy",
-                    "left_contact",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlatformBehavior::SimulateLeftKey"
-                  },
-                  "parameters": [
-                    "PlayerHitBox",
-                    "PlatformerObject"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "FlipX"
-                  },
-                  "parameters": [
-                    "Player",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Joy",
-                    "right_contact",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "FlipX"
-                  },
-                  "parameters": [
-                    "Player",
-                    "no"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlatformBehavior::SimulateRightKey"
-                  },
-                  "parameters": [
-                    "PlayerHitBox",
-                    "PlatformerObject"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "left_contact",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "right_contact",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ]
     }
   ],
+  "eventsFunctionsExtensions": [],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
