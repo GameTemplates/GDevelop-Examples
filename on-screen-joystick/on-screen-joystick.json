@@ -4783,7 +4783,7 @@
                 },
                 {
                   "disabled": false,
-                  "folded": true,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -4870,7 +4870,7 @@
                           "parameters": [
                             "MouseX()",
                             "Variable(JoystickTouchID)",
-                            "<",
+                            ">",
                             "ButtonBg.X(Centre)",
                             "\"GUI\"",
                             ""
@@ -4921,7 +4921,7 @@
                           "parameters": [
                             "MouseX(\"GUI\",)",
                             "Variable(JoystickTouchID)",
-                            ">",
+                            "<",
                             "ButtonBg.X(Centre)",
                             "\"GUI\"",
                             ""
