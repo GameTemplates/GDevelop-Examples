@@ -4314,7 +4314,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Touch controls",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4783,7 +4783,7 @@
                 },
                 {
                   "disabled": false,
-                  "folded": false,
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -4854,7 +4854,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "If the position of the touch is > than the center point of the buttonbg, move character Right",
+                      "comment": "If the position of the touch is > than the center point of the buttonbg, move character Right\nNOTE: ButtonBg is on the \"GUI\" layer so we are checking position of the touch on the \"GUI\" layer",
                       "comment2": ""
                     },
                     {
