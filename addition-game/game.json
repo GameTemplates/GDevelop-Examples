@@ -562,7 +562,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "At the beginning pick a random numbers for the operation and calculate the sum and update the operation text object to display the numbers in the operation number1 + number2\nalso prepare a timer that we are going to use to start the game over",
+          "comment": "At the beginning pick two random numbers for the operation and calculate the sum and update the operation text object to display the numbers in the operation number1 + number2\nalso prepare a timer that we are going to use to start the game over",
           "comment2": ""
         },
         {
@@ -597,7 +597,7 @@
                   "parameters": [
                     "number1",
                     "=",
-                    "RandomInRange(1,5)"
+                    "RandomInRange(1,9)"
                   ],
                   "subInstructions": []
                 },
@@ -609,7 +609,7 @@
                   "parameters": [
                     "number2",
                     "=",
-                    "RandomInRange(1,5)"
+                    "RandomInRange(1,10-Variable(number1))"
                   ],
                   "subInstructions": []
                 },
