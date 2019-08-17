@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "default",
     "packageName": "com.example.gamename",
-    "projectFile": "/home/szoszo/Documents/Projects/GDevelop/drag-camera-with-mouse/game.json",
+    "projectFile": "/home/szoszo/Documents/Projects/gametemplates/git/GDevelop-Examples/drag-camera-with-mouse/game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
@@ -1836,14 +1836,25 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "initialie some variables to store the minimum and maximum limits we allow the camera to move on the X and Y axis, \nthe values are for demonstation purposes only, you want to change them to fit your project\nthe values represent actual positions in the scene, left and right, on the X axis and up and down on the Y axis",
+                  "comment": "initialise some variables to store the minimum and maximum limits we allow the camera to move on the X and Y axis, \nthe values are for demonstration purposes only, you want to change them to fit your project\nthe values are actual positions in the scene, left and right on the X axis, up and down on the Y axis",
                   "comment2": ""
                 },
                 {
                   "disabled": false,
                   "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
                   "actions": [
                     {
                       "type": {
