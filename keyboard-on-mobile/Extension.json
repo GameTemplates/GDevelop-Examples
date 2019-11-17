@@ -1,0 +1,306 @@
+{
+  "author": "Bouh",
+  "description": "Authorize to open, use and close keyboard on mobile.\nThis behavior need to be added on \"Text entry\" object.\nAction open and close keyboard is added.",
+  "extensionNamespace": "",
+  "fullName": "Mobile keyboard",
+  "name": "Mobile_keyboard",
+  "shortDescription": "Authorize to open, use and close keyboard on mobile.",
+  "tags": "javascript, keyboard, mobile",
+  "version": "1.0.0",
+  "eventsFunctions": [
+    {
+      "description": "",
+      "fullName": "",
+      "functionType": "Action",
+      "name": "Function",
+      "sentence": "",
+      "events": [],
+      "parameters": [
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "",
+          "name": "",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "sceneName"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "",
+          "name": "",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "objectList"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": [
+    {
+      "description": "Allow to use keyboard on mobile.",
+      "fullName": "Behavior",
+      "name": "Text_for_mobile",
+      "objectType": "TextEntryObject::TextEntry",
+      "eventsFunctions": [
+        {
+          "description": "",
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onCreated",
+          "sentence": "",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "For each objet how have the this behavior we create a HTML input with unique ID, this ID is stored in the object himself.",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SystemInfo::IsMobile"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": "gdjs._extensionMobileKeyboard = gdjs._extensionMobileKeyboard || {};\n\n//Select and focus input for open keyboard, by id in HTML input\ngdjs._extensionMobileKeyboard.openKeyboard = function (eventsFunctionContext) {\n    var uniqueID = gdjs._extensionMobileKeyboard.getUniqueIdInObject(eventsFunctionContext);\n    var input = document.getElementById(uniqueID);\n    if (input) {\n        var text_entry = eventsFunctionContext.getObjects(\"Object\")[0];\n        input.value = text_entry.getString();\n        input.style.removeProperty(\"visibility\");\n        input.focus();\n    }\n}\n\n//Close input by id in input catch from keyup event\ngdjs._extensionMobileKeyboard.closeKeyboardById = function (uniqueID) {\n    var input = document.getElementById(uniqueID);\n    if (input) {\n        var text_entry = eventsFunctionContext.getObjects(\"Object\")[0];\n        text_entry.setString(input.value);\n        input.blur();\n        input.style.setProperty(\"visibility\", \"hidden\");\n    }\n}\n\n//Call the function with id from HTML input, for close keyboard\ngdjs._extensionMobileKeyboard.closeKeyboard = function (eventsFunctionContext) {\n    var uniqueID = gdjs._extensionMobileKeyboard.getUniqueIdInObject(eventsFunctionContext);\n    gdjs._extensionMobileKeyboard.closeKeyboardById(uniqueID);\n}\n\n//Save ID insode the object\nvar setUniqueIdInObject = function (id) {\n    var behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");\n    eventsFunctionContext.getObjects(\"Object\")[0]._mobileKeyboardExtensionInput = { \"_uniqueId\": id };\n}\n\n//Return id catch when keyboard will be closed\ngdjs._extensionMobileKeyboard.getUniqueIdInObject = function (eventsFunctionContext) {\n    var behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");\n    return eventsFunctionContext.getObjects(\"Object\")[0]._mobileKeyboardExtensionInput._uniqueId;\n}\n\n\n//INIT\nconst input = document.createElement(\"input\");//Create HTML input\ninput.type = \"text\";\ninput.setAttribute(\"spellcheck\", \"false\"); //Disable spell checking (blue line on mobile under words)\ninput.style = \"background-color: transparent;border: 0px;outline: transparent;color: #0000;\";\n\n//Create an identifier that is unique\nvar uniqueId = \"GDevelop_Mobile_Keyboard_Input\" + Date.now() + '-' + Math.floor(Math.random() * 100000);\ninput.id = uniqueId; //Apply unique id\n//Save id for HTML input in object\nsetUniqueIdInObject(uniqueId);\n\ndocument.body.appendChild(input);//Add input in HTML\n\ninput.addEventListener(\"keyup\", function (event) {\n    input.focus();\n\n    var length_string = input.value.length;\n    input.setSelectionRange(length_string, length_string); //Set selection cursor at end\n\n    if (event.keyCode == 8 || event.keyCode == 46) {//8=Backspace, 46=Del\n        input.value = input.value.slice(0, -1);//Remove the last character\n    }\n\n    var text_entry = eventsFunctionContext.getObjects(\"Object\")[0];\n    text_entry.setString(input.value);//Edit text_entry _str value\n\n    if (event.keyCode === 13) {//Enter key\n        //Send id to function for close keyboard\n        gdjs._extensionMobileKeyboard.closeKeyboard != undefined ? gdjs._extensionMobileKeyboard.closeKeyboardById(uniqueId) : null;\n    }\n\n\n}, { passive: false });\n",
+                  "parameterObjects": "",
+                  "useStrict": true
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Object",
+              "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "TextEntryObject::TextEntry",
+              "type": "object"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Behavior",
+              "name": "Behavior",
+              "optional": false,
+              "supplementaryInformation": "Mobile_keyboard::Text_for_mobile",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Open mobile keyboard",
+          "fullName": "Open mobile keyboard",
+          "functionType": "Action",
+          "name": "openKeyboard",
+          "sentence": "Open mobile keyboard, and save input in _PARAM0_",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SystemInfo::IsMobile"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": "gdjs._extensionMobileKeyboard = gdjs._extensionMobileKeyboard || {};\ngdjs._extensionMobileKeyboard.openKeyboard != undefined ? gdjs._extensionMobileKeyboard.openKeyboard(eventsFunctionContext) : null;",
+                  "parameterObjects": "",
+                  "useStrict": true
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Object",
+              "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "TextEntryObject::TextEntry",
+              "type": "object"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Behavior",
+              "name": "Behavior",
+              "optional": false,
+              "supplementaryInformation": "Mobile_keyboard::Text_for_mobile",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Close mobile keyboard",
+          "fullName": "Close mobile keyboard",
+          "functionType": "Action",
+          "name": "closeKeyboard",
+          "sentence": "Close mobile keyboard",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SystemInfo::IsMobile"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": "gdjs._extensionMobileKeyboard = gdjs._extensionMobileKeyboard || {};\r\ngdjs._extensionMobileKeyboard.closeKeyboard != undefined ? gdjs._extensionMobileKeyboard.closeKeyboard(eventsFunctionContext) : null;",
+                  "parameterObjects": "",
+                  "useStrict": true
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Object",
+              "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "TextEntryObject::TextEntry",
+              "type": "object"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Behavior",
+              "name": "Behavior",
+              "optional": false,
+              "supplementaryInformation": "Mobile_keyboard::Text_for_mobile",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "",
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onOwnerRemovedFromScene",
+          "sentence": "",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "When we delete the object with this behavior, we delete the HTML input linked to it",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SystemInfo::IsMobile"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": "gdjs._extensionMobileKeyboard = gdjs._extensionMobileKeyboard || {};\n\nvar uniqueID = gdjs._extensionMobileKeyboard.getUniqueIdInObject(eventsFunctionContext);\nvar element = document.getElementById(uniqueID);\nelement.parentNode.removeChild(element);",
+                  "parameterObjects": "",
+                  "useStrict": true
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Object",
+              "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "TextEntryObject::TextEntry",
+              "type": "object"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Behavior",
+              "name": "Behavior",
+              "optional": false,
+              "supplementaryInformation": "Mobile_keyboard::Text_for_mobile",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "propertyDescriptors": []
+    }
+  ]
+}

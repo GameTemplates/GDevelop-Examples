@@ -1,18 +1,20 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 97,
+    "build": 98,
     "major": 4,
     "minor": 0,
     "revision": 0
   },
   "properties": {
+    "adMobAppId": "",
     "folderProject": false,
     "linuxExecutableFilename": "",
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\szoszo\\Desktop\\Projects\\gametemplates\\GIT\\GDevelop-Examples\\custom-functions\\game.json",
+    "projectFile": "/home/szoszo/Documents/Projects/gametemplates/git/GDevelop-Examples/custom-functions/game.json",
+    "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -1017,7 +1019,8 @@
               "supplementaryInformation": "",
               "type": "expression"
             }
-          ]
+          ],
+          "objectGroups": []
         },
         {
           "description": "Drag camera with the pointer",
@@ -1663,7 +1666,8 @@
               "supplementaryInformation": "",
               "type": "string"
             }
-          ]
+          ],
+          "objectGroups": []
         },
         {
           "description": "Load image from URL and replace the current animation of an object",
@@ -1802,7 +1806,8 @@
               "supplementaryInformation": "Sprite",
               "type": "objectList"
             }
-          ]
+          ],
+          "objectGroups": []
         },
         {
           "description": "Convert text to voice",
@@ -1874,7 +1879,8 @@
               "supplementaryInformation": "",
               "type": "string"
             }
-          ]
+          ],
+          "objectGroups": []
         },
         {
           "description": "Snap object to a virtual grid in the scene (it is not the grid used in the editor)",
@@ -2009,7 +2015,8 @@
               "supplementaryInformation": "",
               "type": "expression"
             }
-          ]
+          ],
+          "objectGroups": []
         },
         {
           "description": "Set cell size of virtual grid (it is not the grid used in the editor)",
@@ -2097,7 +2104,8 @@
               "supplementaryInformation": "",
               "type": "expression"
             }
-          ]
+          ],
+          "objectGroups": []
         },
         {
           "description": "Pin an object to an other object",
@@ -2281,7 +2289,8 @@
               "supplementaryInformation": "",
               "type": "objectList"
             }
-          ]
+          ],
+          "objectGroups": []
         },
         {
           "description": "Save position of object (each instance will be saved)",
@@ -2507,7 +2516,8 @@
               "supplementaryInformation": "",
               "type": "string"
             }
-          ]
+          ],
+          "objectGroups": []
         },
         {
           "description": "Load object position (will load for each instance)",
@@ -2743,7 +2753,8 @@
               "supplementaryInformation": "",
               "type": "string"
             }
-          ]
+          ],
+          "objectGroups": []
         },
         {
           "description": "Save animation of object (each instance will be saved)",
@@ -2957,7 +2968,8 @@
               "supplementaryInformation": "",
               "type": "string"
             }
-          ]
+          ],
+          "objectGroups": []
         },
         {
           "description": "Load animation of object (each instance will load)",
@@ -3159,7 +3171,8 @@
               "supplementaryInformation": "",
               "type": "string"
             }
-          ]
+          ],
+          "objectGroups": []
         },
         {
           "description": "Save angle of object (each instance will be saved)",
@@ -3373,7 +3386,8 @@
               "supplementaryInformation": "",
               "type": "string"
             }
-          ]
+          ],
+          "objectGroups": []
         },
         {
           "description": "Load angle of object (each instance will be loaded)",
@@ -3575,7 +3589,8 @@
               "supplementaryInformation": "",
               "type": "string"
             }
-          ]
+          ],
+          "objectGroups": []
         },
         {
           "description": "Save size of object (all instance will be saved)",
@@ -3810,7 +3825,8 @@
               "supplementaryInformation": "",
               "type": "string"
             }
-          ]
+          ],
+          "objectGroups": []
         },
         {
           "description": "Load size of object (each instance will be loaded)",
@@ -4046,7 +4062,8 @@
               "supplementaryInformation": "",
               "type": "string"
             }
-          ]
+          ],
+          "objectGroups": []
         }
       ]
     }
