@@ -1,0 +1,1124 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "projectUuid": "34fd134b-3089-41bb-bd0d-ef54546c8bb8",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "collision between instances",
+    "author": "gametemplates.itch.io",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": true
+    },
+    "extensionProperties": [],
+    "extensions": [
+      {
+        "name": "BuiltinObject"
+      },
+      {
+        "name": "BuiltinAudio"
+      },
+      {
+        "name": "BuiltinVariables"
+      },
+      {
+        "name": "BuiltinTime"
+      },
+      {
+        "name": "BuiltinMouse"
+      },
+      {
+        "name": "BuiltinKeyboard"
+      },
+      {
+        "name": "BuiltinJoystick"
+      },
+      {
+        "name": "BuiltinCamera"
+      },
+      {
+        "name": "BuiltinWindow"
+      },
+      {
+        "name": "BuiltinFile"
+      },
+      {
+        "name": "BuiltinNetwork"
+      },
+      {
+        "name": "BuiltinScene"
+      },
+      {
+        "name": "BuiltinAdvanced"
+      },
+      {
+        "name": "Sprite"
+      },
+      {
+        "name": "BuiltinCommonInstructions"
+      },
+      {
+        "name": "BuiltinCommonConversions"
+      },
+      {
+        "name": "BuiltinStringInstructions"
+      },
+      {
+        "name": "BuiltinMathematicalTools"
+      },
+      {
+        "name": "BuiltinExternalLayouts"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "player1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player2-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player3-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player4-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player4-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player5-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player5-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "collider-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "collider-1.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "New_32scene",
+      "name": "New scene",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 1
+      },
+      "objectsGroups": [
+        {
+          "name": "Players",
+          "objects": [
+            {
+              "name": "Player2"
+            },
+            {
+              "name": "Player3"
+            },
+            {
+              "name": "Player4"
+            },
+            {
+              "name": "Player5"
+            },
+            {
+              "name": "Player1"
+            }
+          ]
+        }
+      ],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player2",
+          "persistentUuid": "40796404-8895-4dab-abc9-51017db5b589",
+          "width": 0,
+          "x": 702,
+          "y": 73,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player3",
+          "persistentUuid": "a65b17ed-56e6-44dc-b993-68380b40d526",
+          "width": 0,
+          "x": 643,
+          "y": 483,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player4",
+          "persistentUuid": "e732e7f8-0fc1-4844-9630-81be6c1ea582",
+          "width": 0,
+          "x": 418,
+          "y": 175,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player5",
+          "persistentUuid": "95b9094d-4549-4407-a040-f3cd94427b6a",
+          "width": 0,
+          "x": 352,
+          "y": 291,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player3",
+          "persistentUuid": "d56d2d32-67f2-4ec7-9661-64af137bb249",
+          "width": 0,
+          "x": 113,
+          "y": 100,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player4",
+          "persistentUuid": "b5db5cd8-b8d9-408d-ab57-5ab9096ab04a",
+          "width": 0,
+          "x": 178,
+          "y": 354,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player5",
+          "persistentUuid": "d33ed4db-fe52-4e91-b1b9-d842a91bfbf7",
+          "width": 0,
+          "x": 538,
+          "y": 222,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player2",
+          "persistentUuid": "1452a99b-129b-41c2-9d7f-24aba7ea3ba0",
+          "width": 0,
+          "x": 84,
+          "y": 264,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player1",
+          "persistentUuid": "164f3555-148a-4149-8f4d-2337bc0f3c9e",
+          "width": 0,
+          "x": 431,
+          "y": 68,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player1",
+          "persistentUuid": "56589890-4f59-47ec-8ae6-41ea59cd556f",
+          "width": 0,
+          "x": 667,
+          "y": 357,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player1",
+          "persistentUuid": "c82fcfbc-07bc-41ef-af87-f7a88c908d21",
+          "width": 0,
+          "x": 361,
+          "y": 516,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player4",
+          "persistentUuid": "c3291c4e-d417-4f69-a8b6-50929ddda43d",
+          "width": 0,
+          "x": 223,
+          "y": 81,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player4",
+          "persistentUuid": "129d1a8f-c7a4-41f1-bbd6-dc68399b7b6c",
+          "width": 0,
+          "x": 320,
+          "y": 428,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player3",
+          "persistentUuid": "d3b380d4-c5a6-4fc5-85cd-ee14178accba",
+          "width": 0,
+          "x": 44,
+          "y": 404,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player5",
+          "persistentUuid": "01361dfc-3ca9-4080-9e12-85d92011fb2a",
+          "width": 0,
+          "x": 39,
+          "y": 502,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player2",
+          "persistentUuid": "73fbdbe9-c9e8-473b-908b-3e0fd1d2ecec",
+          "width": 0,
+          "x": 150,
+          "y": 481,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player2",
+          "persistentUuid": "c66028f9-6c6d-42b7-af86-04cb6ae94c40",
+          "width": 0,
+          "x": 271,
+          "y": 183,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player1",
+          "persistentUuid": "033d5bd5-a26f-4cd9-a550-128cef8e5e05",
+          "width": 0,
+          "x": 209,
+          "y": 264,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player5",
+          "persistentUuid": "717fe6c2-64fb-4e3c-bdf2-c6c926828303",
+          "width": 0,
+          "x": 535,
+          "y": 350,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player3",
+          "persistentUuid": "269b6a12-d719-49ff-bc8a-e992e468739e",
+          "width": 0,
+          "x": 473,
+          "y": 480,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Message",
+          "persistentUuid": "4438ed15-e1e4-4e15-a518-0d295641bdb7",
+          "width": 0,
+          "x": 314,
+          "y": 19,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "Player1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "player1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "player1-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Player2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "player2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "player2-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Player3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "player3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "player3-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Player4",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "player4",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "player4-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Player5",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "player5",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "player5-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Collider",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "collider",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "collider-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Message",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Drag the objects",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "for more examples and templates visit gametemplates.itch.io",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "all player is the member if the Players group\ncreate a collider at the position of each player and link them using an object variable and hide the collider",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "linkCount",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Players",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "linkCount",
+                    "+",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Collider",
+                    "Players.X()",
+                    "Players.Y()",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Collider",
+                    "linkId",
+                    "=",
+                    "Variable(linkCount)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Players",
+                    "linkId",
+                    "=",
+                    "Variable(linkCount)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Collider"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "set the position of each collider to be at the position of the player they linked to",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Players",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Collider",
+                "linkId",
+                "=",
+                "Players.Variable(linkId)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Collider",
+                "=",
+                "Players.X()",
+                "=",
+                "Players.Y()"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "on collision move players away from each other's collider but not the one they are linked to",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Players",
+                "Collider",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Players",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Collider",
+                    "linkId",
+                    "!=",
+                    "Players.Variable(linkId)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Players",
+                    "Collider",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 36,
+          "ambientLightColorG": 7175920,
+          "ambientLightColorR": 32,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
