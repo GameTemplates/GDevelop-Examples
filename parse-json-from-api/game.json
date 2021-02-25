@@ -1,20 +1,22 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 96,
+    "build": 99,
     "major": 4,
     "minor": 0,
     "revision": 0
   },
   "properties": {
+    "adaptGameResolutionAtRuntime": false,
     "folderProject": false,
-    "linuxExecutableFilename": "",
-    "macExecutableFilename": "",
+    "orientation": "default",
     "packageName": "com.gametemplates.itch",
-    "projectFile": "C:\\Users\\szoszo\\Desktop\\Projects\\gametemplates\\gdevelop5\\parse-json-from-api\\game.json",
+    "projectUuid": "86520e19-90a8-448f-ab63-3bcc3711923e",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "",
+    "useDeprecatedZeroAsDefaultZOrder": true,
     "useExternalSourceFiles": false,
-    "winExecutableFilename": "",
-    "winExecutableIconFile": "",
+    "version": "1.0.0",
     "name": "Parse JSON from SWAPI",
     "author": "gametemplates.itch.io",
     "windowWidth": 800,
@@ -23,6 +25,11 @@
     "maxFPS": 60,
     "minFPS": 10,
     "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": true
+    },
+    "extensionProperties": [],
     "extensions": [
       {
         "name": "BuiltinObject"
@@ -95,6 +102,7 @@
         "alwaysLoaded": false,
         "file": "sw.png",
         "kind": "image",
+        "metadata": "",
         "name": "sw.png",
         "smoothed": true,
         "userAdded": false
@@ -167,6 +175,7 @@
           "layer": "",
           "locked": false,
           "name": "logo",
+          "persistentUuid": "e6c42174-e9dc-4d12-9c68-8d86dfa11dbc",
           "width": 0,
           "x": 258.297,
           "y": 33.2376,
@@ -182,6 +191,7 @@
           "layer": "",
           "locked": false,
           "name": "person",
+          "persistentUuid": "a638f45e-d65c-4359-9114-8e4a5ae0c284",
           "width": 0,
           "x": 255.89,
           "y": 240.911,
@@ -197,6 +207,7 @@
           "layer": "",
           "locked": false,
           "name": "message",
+          "persistentUuid": "56d76de6-465b-4002-b496-c60435906f51",
           "width": 0,
           "x": 20.7414,
           "y": 565.168,
@@ -209,6 +220,7 @@
       "objects": [
         {
           "name": "logo",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -250,6 +262,7 @@
           "italic": false,
           "name": "person",
           "smoothed": true,
+          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -268,6 +281,7 @@
           "italic": false,
           "name": "message",
           "smoothed": true,
+          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -283,6 +297,21 @@
         }
       ],
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "For more examples and templates visit gametemplates.itch.io",
+          "comment2": ""
+        },
         {
           "disabled": false,
           "folded": false,
@@ -414,6 +443,11 @@
       ],
       "layers": [
         {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
           "name": "",
           "visibility": true,
           "cameras": [
@@ -566,7 +600,7 @@
                 "value": "SendRequest"
               },
               "parameters": [
-                "\"https://swapi.co/\"",
+                "\"https://swapi.dev/\"",
                 "\"api/people/\" + ToString(Variable(num)) + \"/\"",
                 "\"person\"",
                 "\"GET\"",
@@ -581,7 +615,7 @@
                 "value": "SendRequest"
               },
               "parameters": [
-                "\"https://swapi.co/\"",
+                "\"https://swapi.dev/\"",
                 "\"api/planets/\" + ToString(Variable(num)) + \"/\"",
                 "\"planet\"",
                 "\"GET\"",
@@ -654,6 +688,7 @@
       ]
     }
   ],
+  "eventsFunctionsExtensions": [],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
