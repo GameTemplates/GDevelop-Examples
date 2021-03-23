@@ -1965,6 +1965,18 @@
                         {
                           "type": {
                             "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "load",
+                            "=",
+                            "0"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
                             "value": "Scene"
                           },
                           "parameters": [
@@ -3361,6 +3373,18 @@
                         {
                           "type": {
                             "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "load",
+                            "=",
+                            "0"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
                             "value": "Scene"
                           },
                           "parameters": [
@@ -4754,6 +4778,18 @@
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "load",
+                            "=",
+                            "0"
+                          ],
+                          "subInstructions": []
+                        },
                         {
                           "type": {
                             "inverted": false,
